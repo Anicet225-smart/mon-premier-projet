@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Notes · Frontend</title>
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Mes Notes</h1>
+  </header>
+
+  <main>
+    <section class="add">
+      <form id="noteForm">
+        <input id="content" type="text" placeholder="Écris une note…" required />
+        <button type="submit">Ajouter</button>
+      </form>
+      <p id="msg" class="msg"></p>
+    </section>
+
+    <section class="list">
+      <ul id="notesList"></ul>
+    </section>
+  </main>
+
+  <script src="/app.js"></script>
+</body>
+</html>
